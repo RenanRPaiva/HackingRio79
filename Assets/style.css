@@ -1,12 +1,12 @@
 
 
 .material-symbols-outlined {
+  color: #E26110;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 48,
-  
+  'opsz' 48,  
 }
 
 body{
@@ -27,7 +27,7 @@ body{
     float: left;
 }
 .menu-nav{
-    float: right;
+    float: right;    
 }
 
 .menu-img{

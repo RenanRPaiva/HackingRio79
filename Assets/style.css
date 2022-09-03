@@ -31,5 +31,53 @@
 }
 
 
-/* MENU */
+.card-one{
+        
+        padding: 20px;
+        margin-bottom: 5%;
+        position: absolute;
+        display: flex;
+        height: 300px;
+        width: 90%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0rem 0 0.2rem rgb(53, 52, 52);
+      /*   margin-left: -50px; */
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+}
+
+.card-cta{
+    
+    padding: 20px;
+    margin-bottom: 5%;
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0rem 0 0.2rem rgb(53, 52, 52);
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.empresas-parceiras{
+    
+background-color: white;
+height: 150px;
+width: 100%;
+}
+.img-circle{
+    border: 2px solid #242424;
+    width: 20%;  
+    padding-top: 5%;
+    height: 80%;
+    border-radius: 200px;
+}
+
+
 

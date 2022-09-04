@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+    <script>
+        $(function () {
+            $('.dropdown-toggle').dropdown();
+        }); 
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' />
+    <title>EducaVersus</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="container menu-container menu-img">
+            <img src="./Assets/img/Logotipo Versão Clara 1.svg" class="logo" alt="Logo">
+            <div class="dropdown menu-nav">
+                <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Perfil</a>
+                    <a class="dropdown-item" href="#">Sair</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class=" container d-flex justify-content-center mt-5">
+        <input class="search-bar" placeholder="  Pesquise aqui..." type="text">
+    </div>
+<div class="container d-flex justify-content-center">
+        <div class="card-perfil w-75">
+            <div class="w-50 foto-perfil"></div>
+            <div class="w-75 border border-danger"><p class="nome-card">LUANA CRISTINA DA SILVA</p>
+                <p class="nome-card">3 Ano do Ensino Médio</p>
+            
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

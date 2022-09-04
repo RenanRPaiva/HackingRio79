@@ -36,14 +36,15 @@ body{
 
 
 .card-one{
-        
+    
         padding: 20px;
         margin-bottom: 5%;
         position: absolute;
         display: flex;
         height: 300px;
         width: 90%;
-        background-color: white;
+        background-color: #D9D9D9
+        ;
         border-radius: 20px;
         box-shadow: 0rem 0 0.2rem rgb(53, 52, 52);
       /*   margin-left: -50px; */
@@ -51,6 +52,69 @@ body{
         position: relative;
         left: 0px;
 }
+.card-one p{
+    font-size: 20px;
+    font-weight: 900;
+    word-break: break-word;
+   
+   
+}
+
+.card-data{
+    width: 50%;
+    padding: 1%;
+
+}
+
+
+
+.card-one .texto-cta{
+    text-align: left;
+    padding-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FDEBE0;
+   
+}
+
+
+
+.btn-ler-mais{
+    
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    
+    border-radius: 20px;
+    background-color: transparent;
+    color: #E26110;
+    font-weight: 700;
+    border:2px solid #E26110;
+}
+
+
+.btn-ler-mais:hover{
+     
+    background-color: #E26110;
+    color: #FDEBE0;
+}
+
+
+.cta-button{
+width: 312px;
+height: 37px;
+border-radius: 16px;
+background-color: #E26110;
+color: #FDEBE0;
+font-weight: 700;
+gap: 10px;
+border: none;
+}
+.cta-button:hover{
+    box-shadow: 0 0 1em black;
+}
+
 
 .card-cta{
     
@@ -69,27 +133,33 @@ body{
     left: 0px;
 }
 
+
 .empresas-parceiras{
     
 background-color: white;
 height: 150px;
 width: 100%;
 }
-.img-circle{
-    border: 2px solid #242424;
-    width: 20%;  
-    padding-top: 5%;
-    height: 80%;
-    border-radius: 200px;
+
+
+.img-logo-parceria{
+    background-size: cover;
+    width: 100px;
+    height: 50px;
 }
+
+.card-cursos{
+    background-color: #111B3A;
+}
+
 
 .card-curso{ 
     
     padding: 20px;
-    margin-bottom: 5%;
+    margin: 30px;
     position: absolute;
     display: flex;
-    height: 300px;
+    height: 250px;
     width: 30%;
     background-color: white;
     border-radius: 20px;
@@ -98,14 +168,41 @@ width: 100%;
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
+    border: none;
+}
+
+.card-curso h3{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50%;
+    width: 100%;
 }
 
 
 
 
+.dropdown-toggle::after {
+
+    content: none;
+   
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #6c757d;
+}
+
 
 
 /* RESPONSIVIDADE */
+
+@media (min-width: 576px) { 
+    .btn-ler-mais{
+        margin-top: 12px;
+    }
+}
+
 
 @media (min-width: 767.98px) { 
     
@@ -113,6 +210,11 @@ width: 100%;
         border-radius: 100px;
         width: 10%; 
     }
+
+   
+
+
+
  }
  @media (min-width: 768.98px) { 
     .img-circle{

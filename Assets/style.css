@@ -1,4 +1,4 @@
-
+/* CSS do index */
 
 .material-symbols-outlined {
   color: #E26110;
@@ -100,7 +100,17 @@ width: 100%;
     left: 0px;
 }
 
+/* CSS Login */
 
+.body-login{
+    background-color: #111B3A;
+}
+
+.close-login{
+    color: #E26110 !important;
+    font-size:90px !important;
+    text-decoration: none !important;    
+}
 
 
 

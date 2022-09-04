@@ -29,7 +29,7 @@ Foi utilizado o figma como prototipagem: <a>https://www.figma.com/file/CGBTAQzNd
 
 Equipe 79 formado: 
 
-Amanda Gomes de Melo Pereira - Negocios
-Juliana Santana Mesquita - UI
-Luciano Paiva Botelho - Dev
+Amanda Gomes de Melo Pereira - Negocios //
+Juliana Santana Mesquita - UI //
+Luciano Paiva Botelho - Dev //
 Renan Rodrigues da Silva Paiva - Dev 

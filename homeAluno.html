@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hacking 79</title>
+    <link rel="stylesheet" href="./Assets/style.css">
     <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
     <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
     <script>
@@ -20,10 +19,10 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
     <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' />
-
+    <title>EducaVersus</title>
 </head>
-
 <body>
+
     <div class="header">
         <div class="container menu-container menu-img">
             <img src="./Assets/img/Logotipo Versão Clara 1.svg" class="logo" alt="Logo">
@@ -35,59 +34,33 @@
                     </span>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="./login.html">Entrar</a>
-                  <a class="dropdown-item" href="#">Cadastrar</a>                                      
+                    <a class="dropdown-item" href="#">Perfil</a>
+                    <a class="dropdown-item" href="index.html">Sair</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- FIM DO HEADER -->
 
-    <!-- LOGO-->
     
-    <!-- FIM DO LOGO -->
-    <div class="container ">
-    <div class=" card-one">
-    
+    <div class="container justify-content-center ">
+    <div class=" container d-flex justify-content-center mt-5">
+        <input class="search-bar" placeholder="  Pesquise aqui..." type="text">
     </div>
-</div>
-    <!-- CALL TO ACTION -->
-    <div class="container d-flex justify-content-center">
-
-        <button class="cta-button">
-            QUERO APRENDER AGORA
-
-        </button>
+<div class="container d-flex justify-content-center">
+        <div class="card-perfil w-75">
+            <div class="w-50 foto-perfil"></div>
+            <div class="w-75 "><p class="nome-card">LUANA CRISTINA DA SILVA</p>
+                <p class="nome-card">3 Ano do Ensino Médio</p>
+                <img src="./Assets/img/Design sem nome (7) 1.svg" background="contain" alt="" srcset="">
+                <a class="link-conquer" href="#">Acessar Conquistas</a>
+            </div>
+        </div>
     </div>
-    <!-- FIM CALL TO ACTION -->
-
-    <!-- DADOS -->
-    <div class="container mt-5 d-flex justify-content-center">
+    <div class="container card-img-two d-flex justify-content-center">
         <div class="card-two card-back">
         </div>
     </div>
-    <!-- FIM DOS DADOS -->
-
-    <!-- EMPRESAS PARCEIRAS -->
-
-    <H2 class="text-center mt-1">EMPRESAS PARCEIRAS</H2>
-    <div class="container d-flex justify-content-center">
-        <div class="d-flex justify-content-around card-cta">
-            <div class="img-circle">
-                <img class="img-logo-parceria" src="./Assets/img/parceiro1.png" alt="" srcset="">
-            </div>
-            <div class="img-circle">
-                <img class="img-logo-parceria" src="./Assets/img/parceiro2.png" alt="" srcset="">
-            </div>
-            <div class="img-circle">
-                <img class="img-logo-parceria" src="./Assets/img/parceiro3.png" alt="" srcset="">
-            </div>
-        </div>
-    </div>
-    <!-- FIM EMPRESAS PARCEIRAS -->
-
-    <!-- CURSOS DISPONÍVEIS -->
-    <h2 class="text-center mt-5">CURSOS DISPONIVEIS</h2>
+    <h4 class="text-center mt-5">CURSOS DISPONIVEIS</h4>
     <div class="container card-cursos mt-5 d-flex justify-content-around">
         <div class="card-curso">
         <img class="curso-img" src="./Assets/img/Ellipse 9.svg" alt="" srcset="">
@@ -103,21 +76,28 @@
         </div>
     </div>
 
-
-    <!-- FIM CURSOS DISPONÍVEIS -->
-
-    <!-- ENCONTRE UM LOCAL -->
-  <div class="container mt-4">
-    <h4>ENCONTRE UM LUGAR PARA ESTUDAR</h4>
-  </div>
-    <div class="container justify-content-center mapa">
+    <div class="container mt-5 d-flex justify-content-center">
         
+        <div class="container mt-5 d-flex justify-content-center">
+        <div class="w-25 "><img src="./Assets/img/Ellipse 24.svg" background="contain" alt="" srcset=""></div>
+        <div class="w-50 matricula-title tex">Você não está matriculada em nenhum curso no momento</div>
+
+        
+    </div>
 
     </div>
-    <!-- FIM ENCONTRE UM LOCAL -->
 
 
+    <div class="container mt-5 d-flex justify-content-center vh-50 ">
+
+        <h3 class="search-title">Encontre um Lugar para estudar</h3>
+    </div>
+    <div class="container d-flex justify-content-center">
+    <input class="w-75 search-bar" type="search" name="" id="" placeholder="  Digite Seu cep aqui...">
+    </div>
+    <div class="container mt-5 justify-content-center mapa"></div>
+
+</div>
 
 </body>
-
 </html>

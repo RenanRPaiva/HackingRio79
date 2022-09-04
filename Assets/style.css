@@ -38,12 +38,12 @@ body{
 
 
 .card-one{
-    
-        margin-top:05px;
-        margin-bottom: 100px;
+        margin-left: 10px;
+        margin-top:10px;
+        margin-bottom: 40px;
         height: 50vh;
         background: url(./img/Seção\ Banner\ 1.svg)no-repeat;
-       position: relative;
+        position: relative;
         
 }
 .card-one p{
@@ -320,4 +320,18 @@ width: 100%;
 .nome-card{
     font-weight: 700;
     font-size: 10px;
+}
+
+
+.link-conquer{
+
+    font-size: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    color: #E26110;
+}
+
+.card-img-two{
+    margin-top: 180px;
 }

@@ -27,7 +27,7 @@ Com pretenção de ser refatorado em React e TypeScript com responsividade, pois
 
 Foi utilizado o figma como prototipagem: <a>https://www.figma.com/file/CGBTAQzNdwtMW71cdUf8ne/Hacking.Rio---Squad-79?node-id=7%3A12</a>
 
-Equipe 79 formado: 
+Equipe 79 formada: 
 
 Amanda Gomes de Melo Pereira - Negocios //
 Juliana Santana Mesquita - UI //

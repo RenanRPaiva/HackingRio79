@@ -17,19 +17,6 @@ O sistema também vê a possibilidade para os alunos que não possui recursos of
 
 #### Informações adicionais 
 
-O projeto foi pensado em ser desenvolvido em:
+Forneça informações adicionais, adicione novos tópicos ou subtópicos. Use esse arquivo como um guia rápido para manter claro os objetivos de seu projeto para os demais integrantes. Manter o foco conjunto de forma coesa lhe ajudará a criar um produto mais *sólido*.
 
-HTML,
-CSS,
-JavaScript.
-
-Com pretenção de ser refatorado em React e TypeScript com responsividade, pois no momento está somente para mobile.
-
-Foi utilizado o figma como prototipagem: <a>https://www.figma.com/file/CGBTAQzNdwtMW71cdUf8ne/Hacking.Rio---Squad-79?node-id=7%3A12</a>
-
-Equipe 79 formado: 
-
-Amanda Gomes de Melo Pereira - Negocios
-Juliana Santana Mesquita - UI
-Luciano Paiva Botelho - Dev
-Renan Rodrigues da Silva Paiva - Dev 
+Tenha em mente que seu trabalho nesse repositório será avaliado por um Juri Técnico, informações sobre a tecnologia usada também são bem vindas. 
